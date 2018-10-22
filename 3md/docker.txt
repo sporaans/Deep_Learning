@@ -1,0 +1,6 @@
+docker run -p 8888:8888 -v "$(pwd):/notebooks/host_dir" -it --rm renarl/tensorflow-openai-gym-xitari:tf1.1.0-gym0.8.1-py3
+docker run -p 8888:8888 -v "$(pwd):/notebooks/host_dir" -it renarl/tensorflow-openai-gym-xitari:tf1.1.0-gym0.8.1-py3
+
+http://192.168.99.100:8888/?token=8a89f764b3766565caf6f784a7e7bf7d3bbd3ef8ed6c2ae3
+
+#dt	webct_kods	komp_kods	usr	ip	apj
